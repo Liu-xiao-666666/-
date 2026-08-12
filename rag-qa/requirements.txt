@@ -1,0 +1,8 @@
+# ===== RAG 核心依赖 =====
+sentence-transformers>=3.0.0       # 本地 Embedding 模型
+chromadb>=0.5.0                    # 向量数据库
+openai>=1.50.0                     # DeepSeek API 调用（兼容 OpenAI SDK）
+
+# ===== 文档解析 =====
+pypdf>=4.0.0                       # PDF 解析
+python-dotenv>=1.0.0               # 环境变量管理
