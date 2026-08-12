@@ -1,0 +1,52 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### Node modules ###
+node_modules/
+admin/node_modules/
+mobile/node_modules/
+
+### Sensitive config files (contains API keys and passwords) ###
+backend/server/src/main/resources/application.yml
+backend/server/target/
+
+### Uploaded files ###
+backend/server/uploads/
+
+### IntelliJ IDEA ###
+.idea/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+### gstack / Claude local config ###
+.gstack/
+.claude/
+
+### Large binary files ###
+*.doc
+*.docx

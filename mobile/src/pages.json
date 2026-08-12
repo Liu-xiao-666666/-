@@ -1,0 +1,53 @@
+{
+  "pages": [
+    {
+      "path": "pages/login/login",
+      "style": { "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/register/register",
+      "style": { "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/dish/dish",
+      "style": { "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/cart/cart",
+      "style": { "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/order/list",
+      "style": { "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/order/order",
+      "style": { "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/my/my",
+      "style": { "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/my/profile",
+      "style": { "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/delivery/delivery",
+      "style": { "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/chat/chat",
+      "style": { "navigationStyle": "custom" }
+    },
+    {
+      "path": "pages/aftersale/aftersale",
+      "style": { "navigationStyle": "custom" }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#FF6B35",
+    "backgroundColor": "#FFF8F5"
+  }
+}

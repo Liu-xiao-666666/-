@@ -1,0 +1,17 @@
+$color-primary: #FF6B35;
+$color-primary-dark: #E55A2B;
+$color-primary-light: #FF8C5A;
+$color-bg: #FFF8F5;
+$color-bg-card: #FFFFFF;
+$color-text: #2D2D2D;
+$color-text-secondary: #8E8E93;
+$color-border: #FFE8DD;
+$color-error: #FF3B30;
+$color-success: #34C759;
+
+page {
+  background: $color-bg;
+  font-family: -apple-system, 'PingFang SC', 'Helvetica Neue', sans-serif;
+  color: $color-text;
+  min-height: 100vh;
+}

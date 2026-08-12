@@ -1,0 +1,30 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+  datasource:
+    url: jdbc:mysql://localhost:3306/takeaway?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: your_db_username
+    password: your_db_password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+server:
+  port: 8080
+  tomcat:
+    max-http-form-post-size: 10MB
+  servlet:
+    context-path: /api
+
+upload:
+  path: D:/桌面/PBL/backend/server/uploads
+
+deepseek:
+  api-key: your_deepseek_api_key
+  base-url: https://api.deepseek.com/v1
+  model: deepseek-chat
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
